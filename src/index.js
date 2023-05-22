@@ -1,7 +1,4 @@
-import { answer } from './answer';
-function render() {
-  document.getElementById(
-    'root'
-  ).innerHTML = `The answer to the universe is ${answer}.`;
-}
-render();
+const hexoid = require('hexoid');
+
+const toID = hexoid();
+toID(); //=> '52032fedb951da00'
